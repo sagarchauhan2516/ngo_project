@@ -1,0 +1,464 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo:hover {
+    padding: 10px;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #197e6f;
+    padding: 10px 0;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+
+.logo {
+    height: 25px;
+
+}
+.headbtn:hover {
+    background-color: #19a533;
+    padding: 7px 15px;
+    border-radius: 10px;
+      
+}
+
+.hero {
+    background-image: url('images/mainback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Adds parallax effect */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.login-hero {
+    background-image: url('images/mainback.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Adds parallax effect */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.volunteer-hero {
+    background-image: url('images/Community.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Adds parallax effect */
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #ff5722;
+    color: white;
+    padding: 7px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.quick-links .btn {
+    margin-top: 30px; /* Creates extra space between the text and button in the quick-links section */
+}
+
+.btn:hover {
+    background-color: #e64a19;
+}
+
+/* Quick Links Section */
+.quick-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    background-color: #f4f4f4;
+}
+
+.quick-links .link {
+    text-align: center;
+}
+
+.quick-links h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.quick-links img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.projects h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.projects .project {
+    margin: 30px 0;
+}
+
+.projects img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Volunteer Hero Section */
+.volunteer-hero {
+    background-image: url('images/volunteer-banner.jpg'); /* Add relevant image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.volunteer-info {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.volunteer-info h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.volunteer-info p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Volunteer Registration Form */
+.volunteer-registration {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* General Form Styles */
+form.registration-form {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto; /* Centers the form */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+}
+
+form.registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #197e6f; /* Matches your site theme */
+}
+
+form.registration-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+form.registration-form input,
+form.registration-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+form.registration-form input:focus,
+form.registration-form textarea:focus {
+    border-color: #197e6f; /* Changes border color on focus */
+    outline: none;
+}
+
+form.registration-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form.registration-form button.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #197e6f; /* Matches your brand color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form.registration-form button.btn:hover {
+    background-color: #145c53; /* Darker shade on hover */
+}
+
+/* Style for Form Container */
+.volunteer-registration {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.volunteer-registration h2 {
+    font-size: 32px;
+    color: #197e6f;
+    margin-bottom: 20px;
+}
+
+.volunteer-registration p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #197e6f;
+    padding: 10px 0;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo img {
+    height: 25px;
+}
+
+/* Hero Section */
+.hero.login-hero {
+    background-image: url('images/hero-login.jpg'); /* Replace with actual image */
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Auth Section */
+.auth-section {
+    padding: 50px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+}
+
+.form-container h2 {
+    color: #197e6f;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.form-container .form-group {
+    margin-bottom: 15px;
+}
+
+.form-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.form-container input:focus {
+    border-color: #197e6f;
+    outline: none;
+}
+
+.form-container button.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #197e6f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.form-container button.btn:hover {
+    background-color: #145c53;
+}
+
+.form-footer {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.form-footer a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
