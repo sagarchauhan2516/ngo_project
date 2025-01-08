@@ -62,7 +62,7 @@ nav .logo {
 }
 
 .hero {
-    background-image: url('mainback.jpg');
+    background-image: url('"ainback.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
@@ -75,7 +75,7 @@ nav .logo {
 }
 
 .login-hero {
-    background-image: url('mainback.jpg');
+    background-image: url("mainback.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
@@ -88,7 +88,7 @@ nav .logo {
 }
 
 .volunteer-hero {
-    background-image: url('Community.jpg');
+    background-image: url("Community.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
@@ -180,7 +180,7 @@ nav .logo {
 
 /* Volunteer Hero Section */
 .volunteer-hero {
-    background-image: url('volunteer-banner.jpg'); 
+    background-image: url("volunteer-banner.jpg"); 
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -338,7 +338,7 @@ nav ul li a {
 
 /* Hero Section */
 .hero.login-hero {
-    background-image: url('hero-login.jpg'); 
+    background-image: url("hero-login.jpg"); 
     background-size: cover;
     background-position: center;
     height: 350px;
