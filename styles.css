@@ -62,7 +62,7 @@ nav .logo {
 }
 
 .hero {
-    background-image: url("ainback.jpg");
+    background-image: url("mainback.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; 
