@@ -62,10 +62,10 @@ nav .logo {
 }
 
 .hero {
-    background-image: url('images/mainback.jpg');
+    background-image: url('mainback.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Adds parallax effect */
+    background-attachment: fixed; 
     height: 500px;
     display: flex;
     align-items: center;
@@ -75,10 +75,10 @@ nav .logo {
 }
 
 .login-hero {
-    background-image: url('images/mainback.jpg');
+    background-image: url('mainback.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Adds parallax effect */
+    background-attachment: fixed; 
     height: 500px;
     display: flex;
     align-items: center;
@@ -88,10 +88,10 @@ nav .logo {
 }
 
 .volunteer-hero {
-    background-image: url('images/Community.jpg');
+    background-image: url('Community.jpg');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Adds parallax effect */
+    background-attachment: fixed; 
     height: 500px;
     display: flex;
     align-items: center;
@@ -124,7 +124,7 @@ nav .logo {
 }
 
 .quick-links .btn {
-    margin-top: 30px; /* Creates extra space between the text and button in the quick-links section */
+    margin-top: 30px; 
 }
 
 .btn:hover {
@@ -180,7 +180,7 @@ nav .logo {
 
 /* Volunteer Hero Section */
 .volunteer-hero {
-    background-image: url('images/volunteer-banner.jpg'); /* Add relevant image */
+    background-image: url('volunteer-banner.jpg'); 
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -218,17 +218,17 @@ nav .logo {
 form.registration-form {
     width: 100%;
     max-width: 600px;
-    margin: 0 auto; /* Centers the form */
+    margin: 0 auto; 
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Adds subtle shadow */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
 form.registration-form h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #197e6f; /* Matches your site theme */
+    color: #197e6f; 
 }
 
 form.registration-form label {
@@ -252,7 +252,7 @@ form.registration-form textarea {
 
 form.registration-form input:focus,
 form.registration-form textarea:focus {
-    border-color: #197e6f; /* Changes border color on focus */
+    border-color: #197e6f; 
     outline: none;
 }
 
@@ -264,7 +264,7 @@ form.registration-form textarea {
 form.registration-form button.btn {
     width: 100%;
     padding: 12px;
-    background-color: #197e6f; /* Matches your brand color */
+    background-color: #197e6f;
     color: white;
     border: none;
     border-radius: 4px;
@@ -274,7 +274,7 @@ form.registration-form button.btn {
 }
 
 form.registration-form button.btn:hover {
-    background-color: #145c53; /* Darker shade on hover */
+    background-color: #145c53; 
 }
 
 /* Style for Form Container */
@@ -338,7 +338,7 @@ nav ul li a {
 
 /* Hero Section */
 .hero.login-hero {
-    background-image: url('images/hero-login.jpg'); /* Replace with actual image */
+    background-image: url('hero-login.jpg'); 
     background-size: cover;
     background-position: center;
     height: 350px;
